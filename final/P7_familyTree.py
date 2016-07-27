@@ -195,15 +195,10 @@ f.set_children("g", ["n", "o", "p", "q"])
 
 words = ["zeroth", "first", "second", "third", "fourth", "fifth", "non"]
 
-## These are your test cases. 
+## test cases
 
-## The first test case should print out:
-## 'b' is a zeroth cousin 0 removed from 'c'
 t, r = f.cousin("b", "c")
 print "'b' is a", words[t],"cousin", r, "removed from 'c'"
-
-## For the remaining test cases, use the graph to figure out what should 
-## be printed, and make sure that your code prints out the appropriate values.
 
 t, r = f.cousin("d", "f")
 print "'d' is a", words[t],"cousin", r, "removed from 'f'"
