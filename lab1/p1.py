@@ -10,4 +10,4 @@ total = 0
 for i in s:
     if i in 'aeiou':
         total += 1
-print("Number of vowels: " + str(total))
+print('Number of vowels: ' + str(total))
